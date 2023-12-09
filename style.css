@@ -1,0 +1,298 @@
+/*Barra de Navegación */
+
+    .navbar {
+     padding: 2rem;
+     background-color: #f5f6f7;
+    }
+
+    .navbar-collapse {
+     align-items: center;
+     justify-content: space-between;
+    }
+
+    /*Estilos generales*/
+
+    section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    }
+
+    h1{
+     font-size: 2.5rem;
+     font-family: 'Times New Roman', Times, serif;
+    }
+
+   .section-oscura {
+     color: white;
+     background-color: ·1b1b32;
+    }
+
+    .section-clara {
+     color: black;
+     background-color: white;
+    }
+
+    .secction-titylo {
+     font-size: 2rem;
+     padding: 25px 0;
+     font-family: 'Times New Roman', Times, serif;
+    }
+
+    .section-descriptiom {
+     font-size: 1.2rem;
+     color: #584e4e;
+    }
+
+    .seccton-texto {
+     font-size: 1.2rem;
+    }
+
+    .btn-info {
+     font-size: 1.1rem;
+     margin: 20px;
+    }
+
+    .text-negro {
+     color: black;
+    }
+
+    .text-blanco {
+     color: white;
+    }
+
+    /*Seccion Hero */
+
+    .hero {
+     background: #f5f6f7;
+     min-height: 458px;
+     text-align: center;
+    }
+
+    .hero-principal {
+     padding: 3rem;
+    }
+
+    .hero-imagen-desarrollador {
+     width: 200px;
+     height: 200px;
+     margin: 20px;
+    }
+
+    .hero-principal h2 {
+     font-size: 1.5rem;
+     color: #615151;
+    }
+
+    /*Sobre mi*/
+
+    .sobre mi {
+     height: 500px;
+     padding: 10px;
+    }
+
+    .sobre-mi .contenedor {
+     max-width: 600px;
+     text-align: center;
+    }
+
+    /*Experiencia*/
+
+    .experiencia {
+     padding: 40px 40px 60px 40px ;
+    }
+
+    .experiencia .columna {
+     padding: 20ox;
+     border: 2px solid #8080804d;
+     display: flex;
+     flex-direction: column;
+     align-self: center;
+     justify-content: space-evenly;
+     transition: all 0.2s ease-in;
+    }
+
+    .experiencia .columna:hover {
+     color: white;
+     background-color: #1b1b32;
+    }
+
+    .experiencia i {
+     font-size: 2.5rem;
+     color:#7ade30;
+     background-color: #0a0a23;
+     padding: 8px 19px;
+     border-radius: 50%;
+    }
+
+    .experiencia-titulo {
+     font-size: 25px;
+     font-weight: bold;
+     margin: 10px 0;
+    }
+
+    .badges-contenedor {
+     font-size: 20;
+     font-weight: bold;
+     margin: 10px 0;
+    }
+
+    .badge {
+      margin: 5px; 
+    }
+
+    /*Proyectos*/
+
+    .proyectos-recientes {
+     padding: 40px;
+    }
+
+    .proyectos-recientes ing {
+     height: 100%;
+     width: 100%;
+     padding: 10px;
+     border-radius: 10px;
+     display: block;
+     transition: all 0.2s ease;
+    }
+
+    .proyectos-contenedor {
+     padding-top: 60px;
+     margin-bottom: 40px;
+    }
+
+    .overlay {
+     transition: all 0.2s ease;
+     opacity: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+    }
+
+    .overlay p {
+     font-size: 25px;
+     font-weight: bold;
+     margin-bottom: 0;
+    }
+
+    .proyecto {
+     position: relative;
+    }
+
+    .proyecto-hover ing {
+     opacity: 0.2;
+    }
+
+    .proyecto-hover .overlay {
+     opacity: 1;
+    }
+
+    .overlay .iconos-contenedor {
+     display: flex;
+    }
+
+    .overlay i {
+     color: black;
+     font-size: 60px;
+     margin: 10px;
+    }
+
+    
+    /*Testimonios*/
+
+    .testimonios {
+     padding: 40px 40px 80px 40px ;
+    }
+
+    .testimonios .carousel {
+     margin: 800px;
+    }
+
+    .carousel-item {
+     height: 500px;
+    }
+    .carousel-item .container {
+       width: 100%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .testimonios-imagen {
+       height: 150%;
+       width: 150%;
+       margin: 10px 10px 20px 10px;
+    }
+
+    .testimonios-texto {
+     max-width: 70%;
+     font-size: 20px;
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+    }
+
+    .testimonios-info {
+     font-weight: bold;
+     text-align: center;
+    }
+
+    .testimonios-info p {
+    margin-bottom: 0;
+    }
+
+    .testimonios-info .cliente {
+     font-size: 1.2rem;
+    }
+
+    .testimonios-info .cargo {
+     font-size: 0.9rem;
+     color: #656060;
+    }
+
+    /*Contacto*/
+
+    .contacto .container {
+      max-width: 1100px;
+      min-height: 200px;
+      padding: 20px;
+    }
+
+    .contacto .rectangulo {
+      margin-top: -5rem;
+      background-color: rgb(13, 110, 253);
+      border-radius: 10px;
+      box-shadow: 0px 1px 4px 1px white;
+    }
+
+    .contacto .row {
+     width: 100%;
+     display: flex;
+     align-items: center;
+    }
+
+    .contacto .description {
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    .contacto button {
+      color: white;
+      font-weight: bold;
+      background-color: transparent;
+      border: 2px solid white;
+      margin: 10px;
+      border-radius: 100px;
+      transition: all 0.2em 2em;
+    }
+
+    .container button:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .contacto button
